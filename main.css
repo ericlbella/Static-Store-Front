@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:  #000000;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+
+
+#button {
+    text-align: right;
+    height: 40px;
+    width: 50px;
+    float: right;
+    margin: 20px;
+}
+
+
+.WreslingLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#WWELogo {
+    padding: 50px;
+    height: 70%;
+    width: 50%;
+    display: inline-block;
+}
+
+#AEWLogo {
+    padding: 50px;
+    height: 70%;
+    width: 50%;
+}
+
+#Box
+{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 200px;
+    height: 40px; 
+    text-align: center; 
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    padding: 5px;
+  }
+
+  /* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  .footer
+  {
+    text-align: center;
+    display: block;
+    margin: 
+    display: inline-block;
+  }
